@@ -7,7 +7,7 @@ from airflow.utils.dates import days_ago
 
 # Default arguments for the DAG
 default_args = {
-    "owner": "SU_AMER_DP_ERA_Dev",
+    "owner": "Astro",
 }
 
 def create_subdag(parent_dag_id, child_dag_id, table_config):
